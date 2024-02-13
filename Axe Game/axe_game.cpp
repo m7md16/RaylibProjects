@@ -7,7 +7,7 @@ int main ()
     InitWindow(screenWidth,200,"New Window");
     //new
     
-    while(true){
+    while(!WindowShouldClose()){
 
         BeginDrawing();
         ClearBackground(RED);
