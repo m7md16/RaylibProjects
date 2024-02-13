@@ -6,7 +6,6 @@ int main ()
     int screenHieght = 350; 
     InitWindow(screenWidth,200,"New Window");
     
-    //keep the window appear
     
     while(true){
 
